@@ -4,9 +4,9 @@
 class Wiper < Formula
   desc "Cross-platform space inspector"
   homepage "https://github.com/ikebastuz/wiper"
-  url "https://github.com/ikebastuz/wiper/releases/download/v0.1.1/wiper.tar.gz"
-  sha256 "4a81ceda34ce9a292cbf67694d25aa8896fab18b218f203d1c302f81a8850af8"
-  version "0.1.1"
+  url "https://github.com/ikebastuz/wiper/releases/download/v0.2.0/wiper.tar.gz"
+  sha256 "7b870a52e152ef71efd6ba886a9479a09243510f095413fe0eadd8d40907f6d4"
+  version "0.2.0"
 
   def install
     bin.install "wiper"
