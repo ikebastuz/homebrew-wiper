@@ -8,10 +8,10 @@ class Wiper < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/ikebastuz/wiper/releases/download/v0.2.0/wiper-x86_64-apple-darwin.tar.gz"
-      sha256 "8b427d6f994f1f87eb928eb72c2eef8d4ce4718b168d6f9eb6bbda6dbb7c224f"
+      sha256 "f8fcecd676b2fc83b0dc6693748170e1f76df1a1a7e1641f3fed8052b20e090c"
     elsif Hardware::CPU.arm?
       url "https://github.com/ikebastuz/wiper/releases/download/v0.2.0/wiper-aarch64-apple-darwin.tar.gz"
-      sha256 "dd16c68f81d033183a46ad6907349ad7af0f0a56f194327d97a0da45136010d9"
+      sha256 "9228cc993fe1f34336aeb019f8d75d1ddfc4eedafc40cc6bcd4e62231a7043f8"
     end
   end
 
