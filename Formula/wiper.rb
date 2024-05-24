@@ -7,15 +7,15 @@ class Wiper < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ikebastuz/wiper/releases/download/v0.2.0/wiper-x86_64-apple-darwin.tar.gz"
-      sha256 "f8fcecd676b2fc83b0dc6693748170e1f76df1a1a7e1641f3fed8052b20e090c"
+      url "https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-aarch64-apple-darwin.tar.gz"
+      sha256 "469ddc8fb9b71f1a860ddf55dd5cc121b30caa094a7e82d9b830944dab561502"
     elsif Hardware::CPU.arm?
-      url "https://github.com/ikebastuz/wiper/releases/download/v0.2.0/wiper-aarch64-apple-darwin.tar.gz"
-      sha256 "9228cc993fe1f34336aeb019f8d75d1ddfc4eedafc40cc6bcd4e62231a7043f8"
+      url "https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-apple-darwin.tar.gz"
+      sha256 "bba5ebb52086c5271405a35ac792e86521a0dfea22b453e0320f8c94ce591569"
     end
   end
 
-  version "0.2.0"
+  version "0.2.1"
 
   def install
     bin.install "wiper"
