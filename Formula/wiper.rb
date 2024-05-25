@@ -15,6 +15,11 @@ class Wiper < Formula
     end
   end
 
+  on_linux do
+    url "https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "1acfe5e6ea3c5b9f09993123c7fb8918d05b903f1f9e915f4f267ab5eb98c5bd"
+  end
+
   version "0.2.1"
 
   def install
